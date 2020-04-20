@@ -36,38 +36,35 @@ int main() {
     cout << " USUARIO: RUBEN LLARENA FERNANDEZ DE LARA  " <<output<<endl;
     cout << "\n"<<endl;
     cout << "********************************************************** " <<endl;
-
+while (true) {
     printf("\n Estudios/Insumos: \t\t\t Precio \t * \n");
-    cout << "A. "<<A<<"\t\t\t"<<"$"<<a<<"\t\t *"<<endl;
-    cout << "B. "<<B<<"\t\t\t"<<"$"<<b<<"\t\t *"<<endl;
-    cout << "C. "<<C<<"\t\t\t\t"<<"$"<<c<<"\t\t *"<<endl;
-    cout << "D. "<<D<<"\t\t\t\t"<<"$"<<d<<"\t\t *"<<endl;
-    cout << "E. "<<E<<"\t\t\t\t"<<"$"<<e<<"\t\t *"<<endl;
-    cout << "F. "<<F<<"\t\t\t"<<"$"<<f<<"\t\t *"<<endl;
-    /*printf("\n A. 'A': \t\t\t $%i \t\t *",&A,a);
-    printf("\n B. Mostrar Biopcia: \t\t\t $%i \t\t *",b);
-    printf("\n C. Ultrasonido: \t\t\t $%i \t\t *",c);
-    printf("\n D. Cubrebocas: \t\t\t $%i \t\t *",d);
-    printf("\n E. Guantes: \t\t\t\t $%i \t\t *",e);
-    printf("\n F. Gel Antibacterial: \t\t\t $%i \t\t * \n",f);
-*/
-    cout << "************************************************************** \n" <<endl;
+    cout << "A. " << A << "\t\t\t" << "$" << a << "\t\t *" << endl;
+    cout << "B. " << B << "\t\t\t" << "$" << b << "\t\t *" << endl;
+    cout << "C. " << C << "\t\t\t\t" << "$" << c << "\t\t *" << endl;
+    cout << "D. " << D << "\t\t\t\t" << "$" << d << "\t\t *" << endl;
+    cout << "E. " << E << "\t\t\t\t" << "$" << e << "\t\t *" << endl;
+    cout << "F. " << F << "\t\t\t" << "$" << f << "\t\t *" << endl;
+    cout << "************************************************************** \n" << endl;
 
-    printf("\n Selecciona la letra correspondiente al estudio: ");
-    scanf(" %c", opcion);
+    cout << "Selecciona el producto que deseas: ";
+    cin >> can;
+    cout <<  endl;
 
-if (opcion = 'A')
-{
-    cout<< "Estudio/Insumo:"<<A<<"\n";
-    printf("\n Precio Unitario: %d \n",a);
-    cout<<endl;
-}
-    if (opcion = 'B'){
-    cout<<"\n Cantidad estudio: 10 "<<endl;
-    cin>>can;
-    cout<<endl;
+    switch (can)
+    {
+        case 1:
+            cout << "Estudio/Insumo:" << A  << endl;
+            cout << " Precio Unitario: " << a << "\n" << endl;
+exit(0);
+        case 2:
+            cout << "Estudio/Insumo:" << B  << endl;
+            cout << " Precio Unitario: " << b << "\n" << endl;
+exit(0);
+        case 3:
+            cout << "Estudio/Insumo:" << C << endl;
+            cout << " Precio Unitario: " << c << "\n" << endl;
+exit(0);
     }
-
-    return (0);
-
+    }
 }
+
