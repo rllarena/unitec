@@ -56,15 +56,15 @@ int main() {
     printf("\n Selecciona la letra correspondiente al estudio: ");
     scanf(" %c", opcion);
 
-if (opcion == 1)
+for (opcion = 'A')
 {
-    cout<< "Estudio/Insumo:"<<A<<"\n"<<endl;
+    cout << "Estudio/Insumo:"<< A <<"\n"<<endl;
     printf("\n Precio Unitario: %d \n",a);
 }
 /*
-  cout<<"\n Cantidad estudio: 10 "<<endl;
-    cin>>can;
- */
+  cout <<"\n Cantidad estudio: 10 "<<endl;
+    cin >> can;
+*/
 //    int total = a*10;
    // printf(\n Total Estudio/Insumo: %d ", total);
 /*
