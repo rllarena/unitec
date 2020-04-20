@@ -35,7 +35,7 @@ int main() {
     cout << "****** BIENVENIDO AL LABORATORIO VIDA Y SALUD ************" <<endl;
     cout << " USUARIO: RUBEN LLARENA FERNANDEZ DE LARA  " <<output<<endl;
     cout << "\n"<<endl;
-    cout << "********************************************************** \n" <<endl;
+    cout << "********************************************************** " <<endl;
 
     printf("\n Estudios/Insumos: \t\t\t Precio \t * \n");
     cout << "A. "<<A<<"\t\t\t"<<"$"<<a<<"\t\t *"<<endl;
@@ -56,40 +56,17 @@ int main() {
     printf("\n Selecciona la letra correspondiente al estudio: ");
     scanf(" %c", opcion);
 
-for (opcion = 'A')
+if (opcion = 'A')
 {
-    cout << "Estudio/Insumo:"<< A <<"\n"<<endl;
+    cout<< "Estudio/Insumo:"<<A<<"\n";
     printf("\n Precio Unitario: %d \n",a);
+    cout<<endl;
 }
-/*
-  cout <<"\n Cantidad estudio: 10 "<<endl;
-    cin >> can;
-*/
-//    int total = a*10;
-   // printf(\n Total Estudio/Insumo: %d ", total);
-/*
-    else if (opcion = 'B');
-{
-    printf("\n Estudios/Insumos: Mostrar Biopcia \n");
-}
-/*
-    if (opcion = 'C')
-{
-    printf("\n Estudios/Insumos: Ultrasonido \n");
-}
-    if (opcion = 'D')
-{
-    printf("\n Estudios/Insumos: Cubrebocas \n");
-}
-    if (opcion = 'E')
-{
-    printf("\n Estudios/Insumos: Guantes \n");
-}
-    if (opcion = 'F')
-{
-    printf("\n Estudios/Insumos: Gel Antibacterial \n");
-}
- */
+    if (opcion = 'B'){
+    cout<<"\n Cantidad estudio: 10 "<<endl;
+    cin>>can;
+    cout<<endl;
+    }
 
     return (0);
 
