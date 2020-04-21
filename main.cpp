@@ -23,6 +23,8 @@ int main() {
     int e=17;
     int f=35;
     int can;
+    int in;
+    int total;
 
     /*Definición de la variable de tiempo */
     time_t tiempo=time(0);
@@ -55,16 +57,64 @@ while (true) {
         case 1:
             cout << "Estudio/Insumo:" << A  << endl;
             cout << " Precio Unitario: " << a << "\n" << endl;
-exit(0);
+            cout << "Cantidad de Estudio/Insumo: ";
+            cin >> in;
+            cout << endl;
+            total = a*in;
+            cout << "\n Total a pagar: "<< "$" << total << endl;
+            cout << "Gracias por tu preferencia" << endl;
+            exit(0);
         case 2:
             cout << "Estudio/Insumo:" << B  << endl;
             cout << " Precio Unitario: " << b << "\n" << endl;
-exit(0);
+            cout << "Cantidad de Estudio/Insumo: ";
+            cin >> in;
+            cout << endl;
+            total = b*in;
+            cout << "\n Total a pagar: "<< "$" << total << endl;
+            cout << "Gracias por tu preferencia" << endl;
+            exit(0);
         case 3:
             cout << "Estudio/Insumo:" << C << endl;
             cout << " Precio Unitario: " << c << "\n" << endl;
-exit(0);
+            cout << "Cantidad de Estudio/Insumo: ";
+            cin >> in;
+            cout << endl;
+            total = c*in;
+            cout << "\n Total a pagar: "<< "$" << total << endl;
+            cout << "Gracias por tu preferencia" << endl;
+            exit(0);
+        case 4:
+            cout << "Estudio/Insumo:" << D << endl;
+            cout << " Precio Unitario: " << d << "\n" << endl;
+            cout << "Cantidad de Estudio/Insumo: ";
+            cin >> in;
+            cout << endl;
+            total = d*in;
+            cout << "\n Total a pagar: "<< "$" << total << endl;
+            cout << "Gracias por tu preferencia" << endl;
+            exit(0);
+        case 5:
+            cout << "Estudio/Insumo:" << E << endl;
+            cout << " Precio Unitario: " << e << "\n" << endl;
+            cout << "Cantidad de Estudio/Insumo: ";
+            cin >> in;
+            cout << endl;
+            total = e*in;
+            cout << "\n Total a pagar: "<< "$" << total << endl;
+            cout << "Gracias por tu preferencia" << endl;
+            exit(0);
+        case 6:
+            cout << "Estudio/Insumo:" << F << endl;
+            cout << " Precio Unitario: " << f << "\n" << endl;
+            cout << "Cantidad de Estudio/Insumo: ";
+            cin >> in;
+            cout << endl;
+            total = f*in;
+            cout << "\n Total a pagar: "<< "$" << total << endl;
+            cout << "Gracias por tu preferencia" << endl;
+            exit(0);
     }
-    }
+}
 }
 
